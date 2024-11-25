@@ -72,34 +72,34 @@ To successfully set up and run the Selenium Automation Testing Project, follow t
 ## Project Structure: 
 ```python
 AT_Project_01
-├── Common/                        # Folder for common utilities (Excel handling, logging, etc.)
-│   ├── common.py                  # Common resources like test setup and teardown
-│   └── ExcelFunctions.py          # Excel file operations (read/write)
-├──Pages/                          # Page Object Model classes
-│   ├── LoginPage.py               # Login page class
-│   │   ├── def login():            # Login method
+├── Common/                          # Folder for common utilities (Excel handling, logging, etc.)
+│   ├── common.py                    # Common resources like test setup and teardown
+│   └── ExcelFunctions.py            # Excel file operations (read/write)
+├──Pages/                            # Page Object Model classes
+│   ├── LoginPage.py                 # Login page class
+│   │   ├── def login():             # Login method
 │   │   └── def logout():            # Logout method
-│   ├── PIMPage.py                 # PIM page class
-│   │   ├── def add_employee():    # Add a new employee
-│   │   ├── def edit_employee():   #  Edit an existing employee's details
-│   │   └── def delete_employee(): #  Delete an existing employee based on employee ID.
-│   └── Project01TestCases.py      # Contains the Project01TestCases class with test case implementations (main file).
-│   │   ├── def TC_Login_01():      # Test case for Valid Login
-│   │   ├── def TC_Login_02():      # Test case for Inalid Login
-│   │   ├── def TC_PIM_01():        # Test case for add new employee
-│   │   ├── def TC_PIM_02():        # Test case for edit employee
-│   │   └── def TC_PIM_03():        # Test case for delete employee             
-├── Resources/                     # Folder for static resources (data, locators)
-│   ├── Data.py                    # Test data (e.g., WebData)
-│   └── Locators.py                # Web locators (e.g., TestLocators)
-├── Tests/                         # Test scripts
-│   ├── test_loginTestSuite.py     # Login test suite
-│   └── test_suite_PIM.py          # PIM test suite
-├── Reports/                       # Test execution reports
-│   ├── login.html                 # Login page test results
-│   └── pim.html                   # PIM page test results
-├── test_data.xlsx                        # Excel file containing test data
-└── README.md                          # Documentation
+│   ├── PIMPage.py                   # PIM page class
+│   │   ├── def add_employee():      # Add a new employee
+│   │   ├── def edit_employee():     #  Edit an existing employee's details
+│   │   └── def delete_employee():   #  Delete an existing employee based on employee ID.
+│   └── Project01TestCases.py        # Contains the Project01TestCases class with test case implementations (main file).
+│   │   ├── def TC_Login_01():       # Test case for Valid Login
+│   │   ├── def TC_Login_02():       # Test case for Inalid Login
+│   │   ├── def TC_PIM_01():         # Test case for add new employee
+│   │   ├── def TC_PIM_02():         # Test case for edit employee
+│   │   └── def TC_PIM_03():         # Test case for delete employee             
+├── Resources/                       # Folder for static resources (data, locators)
+│   ├── Data.py                      # Test data (e.g., WebData)
+│   └── Locators.py                  # Web locators (e.g., TestLocators)
+├── Tests/                           # Test scripts
+│   ├── test_loginTestSuite.py       # Login test suite
+│   └── test_suite_PIM.py            # PIM test suite
+├── Reports/                         # Test execution reports
+│   ├── login.html                   # Login page test results
+│   └── pim.html                     # PIM page test results
+├── test_data.xlsx                   # Excel file containing test data
+└── README.md                        # Documentation
 
 ```
 
