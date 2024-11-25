@@ -88,7 +88,8 @@ AT_Project_01
 │   │   ├── def TC_Login_02():       # Test case for Inalid Login
 │   │   ├── def TC_PIM_01():         # Test case for add new employee
 │   │   ├── def TC_PIM_02():         # Test case for edit employee
-│   │   └── def TC_PIM_03():         # Test case for delete employee             
+│   │   ├── def TC_PIM_03():         # Test case for delete employee
+│   │   └── def close_driver():      # Method to close the browser
 ├── Resources/                       # Folder for static resources (data, locators)
 │   ├── Data.py                      # Test data (e.g., WebData)
 │   └── Locators.py                  # Web locators (e.g., TestLocators)
