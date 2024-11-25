@@ -94,7 +94,12 @@ AT_Project_01
 │   └── Locators.py                  # Web locators (e.g., TestLocators)
 ├── Tests/                           # Test scripts
 │   ├── test_loginTestSuite.py       # Login test suite
+│   │   ├── def test_TC_Login_01():
+│   │   └── def test_TC_Login_02():
 │   └── test_suite_PIM.py            # PIM test suite
+│       ├── def test_TC_PIM_01():
+│       ├── def test_TC_PIM_02():
+│       └── def test_TC_PIM_03():
 ├── Reports/                         # Test execution reports
 │   ├── login.html                   # Login page test results
 │   └── pim.html                     # PIM page test results
@@ -106,9 +111,9 @@ AT_Project_01
 ## Test Cases:
 -  __Login Tests:__
   
-   - __test_tc_login_01:__ Tests the login functionality using credentials from Excel and checks if the user is directed to the dashboard.
+   - __test_TC_Login_01:__ Tests the login functionality using credentials from Excel and checks if the user is directed to the dashboard.
      
-   - __test_tc_login_02:__ Another login test to validate login with different credentials and handles error messages.
+   - __test_TC_Login_02:__ Another login test to validate login with different credentials and handles error messages.
      
 - __Employee Management Tests:__
   
@@ -126,7 +131,7 @@ AT_Project_01
 - __Running Specific Tests:__
   - To run a specific test case, specify the test file and the test function. For example, to run the login test cases, use:
                   `pytest test_loginTestSuite.py`
-  - To run a specific test within that file, use: `pytest test_loginTestSuite.py::test_tc_login_01`
+  - To run a specific test within that file, use: `pytest test_loginTestSuite.py::test_TC_Login_01`
   
 - __Generate a Report:__
   -  To create an HTML report of the test results, you can use:
