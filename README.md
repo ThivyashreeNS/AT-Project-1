@@ -92,7 +92,8 @@ AT_Project_01
 │   │   └── def close_driver():      # Method to close the browser
 ├── Resources/                       # Folder for static resources (data, locators)
 │   ├── Data.py                      # Test data (e.g., WebData)
-│   └── Locators.py                  # Web locators (e.g., TestLocators)
+│   ├── Locators.py                  # Web locators (e.g., TestLocators)
+│   └── test_data.xlsx               # Excel file containing test data
 ├── Tests/                           # Test scripts
 │   ├── test_loginTestSuite.py       # Login test suite
 │   │   ├── def test_TC_Login_01():
@@ -104,7 +105,6 @@ AT_Project_01
 ├── Reports/                         # Test execution reports
 │   ├── login.html                   # Login page test results
 │   └── pim.html                     # PIM page test results
-├── test_data.xlsx                   # Excel file containing test data
 └── README.md                        # Documentation
 
 ```
